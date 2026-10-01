@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TechZone | Κινητά & Επισκευές Υπολογιστών</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="header" id="header">
+  <nav class="navbar container">
+    <a href="#home" class="logo"><span>Tech</span>Zone</a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Αρχική</a></li>
+      <li><a href="#products">Κινητά</a></li>
+      <li><a href="#services">Επισκευές</a></li>
+      <li><a href="#about">Σχετικά</a></li>
+      <li><a href="#contact">Επικοινωνία</a></li>
+    </ul>
+
+    <a href="#contact" class="btn btn-primary nav-cta">Ραντεβού</a>
+
+    <button class="burger" id="burger" aria-label="Μενού">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<!-- Hero -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="container hero-content">
+    <p class="eyebrow">⚡ Το κατάστημα τεχνολογίας της εμπιστοσύνης σου</p>
+    <h1>Κινητά, Υπολογιστές &<br> <span class="highlight">Επισκευές</span> στο ίδιο μέρος</h1>
+    <p class="hero-text">Πουλάμε τα πιο σύγχρονα smartphones και αναλαμβάνουμε επαγγελματικές επισκευές
+      υπολογιστών, laptop και κινητών με ταχύτητα, εγγύηση και ανταλλακτικά υψηλής ποιότητας.</p>
+    <div class="hero-buttons">
+      <a href="#products" class="btn btn-primary">Δες τα Κινητά</a>
+      <a href="#services" class="btn btn-outline">Οι Υπηρεσίες μας</a>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat">
+        <h3>12+</h3>
+        <p>Χρόνια εμπειρίας</p>
+      </div>
+      <div class="stat">
+        <h3>5.000+</h3>
+        <p>Ικανοποιημένοι πελάτες</p>
+      </div>
+      <div class="stat">
+        <h3>24ωρη</h3>
+        <p>Εξπρές επισκευή</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Brands strip -->
+<section class="brands container">
+  <span>Apple</span>
+  <span>Samsung</span>
+  <span>Xiaomi</span>
+  <span>Huawei</span>
+  <span>Asus</span>
+  <span>Lenovo</span>
+</section>
+
+<!-- Products -->
+<section class="section" id="products">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Κατάστημα</p>
+      <h2>Τα πιο hot <span class="highlight">Κινητά</span> της στιγμής</h2>
+      <p class="section-text">Επέλεξε ανάμεσα σε δεκάδες μοντέλα με επίσημη εγγύηση και άτοκες δόσεις.</p>
+    </div>
+
+    <div class="filter-tabs" id="filterTabs">
+      <button class="tab active" data-filter="all">Όλα</button>
+      <button class="tab" data-filter="flagship">Flagship</button>
+      <button class="tab" data-filter="mid">Μεσαία Κατηγορία</button>
+      <button class="tab" data-filter="budget">Οικονομικά</button>
+    </div>
+
+    <div class="products-grid" id="productsGrid">
+
+      <div class="product-card" data-category="flagship">
+        <span class="badge">Νέο</span>
+        <div class="product-img">📱</div>
+        <h3>Phoenix Pro X1</h3>
+        <p class="product-specs">256GB · 12GB RAM · 5G</p>
+        <div class="product-footer">
+          <span class="price">899€</span>
+          <button class="btn btn-small">Αγορά</button>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="mid">
+        <span class="badge badge-sale">-15%</span>
+        <div class="product-img">📱</div>
+        <h3>Nova Mid 7</h3>
+        <p class="product-specs">128GB · 8GB RAM · 5G</p>
+        <div class="product-footer">
+          <span class="price">459€</span>
+          <button class="btn btn-small">Αγορά</button>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="budget">
+        <div class="product-img">📱</div>
+        <h3>Lite Spark 3</h3>
+        <p class="product-specs">64GB · 4GB RAM · 4G</p>
+        <div class="product-footer">
+          <span class="price">189€</span>
+          <button class="btn btn-small">Αγορά</button>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="flagship">
+        <span class="badge">Best Seller</span>
+        <div class="product-img">📱</div>
+        <h3>Orion Ultra 15</h3>
+        <p class="product-specs">512GB · 16GB RAM · 5G</p>
+        <div class="product-footer">
+          <span class="price">1199€</span>
+          <button class="btn btn-small">Αγορά</button>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="mid">
+        <div class="product-img">📱</div>
+        <h3>Vertex Air 5</h3>
+        <p class="product-specs">128GB · 6GB RAM · 5G</p>
+        <div class="product-footer">
+          <span class="price">379€</span>
+          <button class="btn btn-small">Αγορά</button>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="budget">
+        <span class="badge badge-sale">-10%</span>
+        <div class="product-img">📱</div>
+        <h3>Pocket Go 2</h3>
+        <p class="product-specs">32GB · 3GB RAM · 4G</p>
+        <div class="product-footer">
+          <span class="price">129€</span>
+          <button class="btn btn-small">Αγορά</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Services -->
+<section class="section section-alt" id="services">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Συνεργείο</p>
+      <h2>Επισκευές <span class="highlight">Υπολογιστών</span> & Κινητών</h2>
+      <p class="section-text">Έμπειροι τεχνικοί αναλαμβάνουν κάθε βλάβη, με διάγνωση δωρεάν και γρήγορη παράδοση.</p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">💻</div>
+        <h3>Επισκευή Laptop & PC</h3>
+        <p>Format, αλλαγή οθόνης, αναβάθμιση RAM/SSD, καθαρισμός από σκόνη, επισκευή μητρικής.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">📲</div>
+        <h3>Επισκευή Κινητών</h3>
+        <p>Αλλαγή οθόνης, μπαταρίας, θύρας φόρτισης, κάμερας και επισκευή μετά από βλάβη νερού.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🛡️</div>
+        <h3>Ιομορφικά & Ασφάλεια</h3>
+        <p>Αφαίρεση ιών, εγκατάσταση antivirus και ρυθμίσεις ασφαλείας για σπίτι και επιχειρήσεις.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🔧</div>
+        <h3>Αναβαθμίσεις Hardware</h3>
+        <p>Κάρτες γραφικών, τροφοδοτικά, ψύξη και συναρμολόγηση custom PC για gaming & δουλειά.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">☁️</div>
+        <h3>Ανάκτηση Δεδομένων</h3>
+        <p>Ανάκτηση αρχείων από κατεστραμμένους δίσκους, κάρτες μνήμης και κινητά.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🚚</div>
+        <h3>Παραλαβή - Παράδοση</h3>
+        <p>Δωρεάν παραλαβή και παράδοση της συσκευής σου εντός πόλης.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section class="section" id="about">
+  <div class="container about-grid">
+    <div class="about-media">
+      <div class="about-box">🖥️📱🔧</div>
+    </div>
+    <div class="about-content">
+      <p class="eyebrow">Ποιοί είμαστε</p>
+      <h2>Πάθος για την <span class="highlight">τεχνολογία</span> από το 2013</h2>
+      <p class="section-text">
+        Η TechZone ξεκίνησε σαν ένα μικρό συνεργείο επισκευών και σήμερα είναι ένα ολοκληρωμένο κατάστημα
+        τεχνολογίας. Πουλάμε κινητά όλων των brands και επισκευάζουμε υπολογιστές, laptop και smartphones
+        με γνήσια ανταλλακτικά και εγγύηση σε κάθε εργασία.
+      </p>
+      <ul class="about-list">
+        <li>✔ Γνήσια ανταλλακτικά & εγγύηση 6 μηνών</li>
+        <li>✔ Δωρεάν διάγνωση βλάβης</li>
+        <li>✔ Εξειδικευμένοι τεχνικοί</li>
+        <li>✔ Άτοκες δόσεις σε αγορές</li>
+      </ul>
+      <a href="#contact" class="btn btn-primary">Μίλησε μαζί μας</a>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="section section-alt" id="contact">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Επικοινωνία</p>
+      <h2>Κλείσε <span class="highlight">ραντεβού</span> σήμερα</h2>
+      <p class="section-text">Στείλε μας τα στοιχεία σου και θα επικοινωνήσουμε άμεσα μαζί σου.</p>
+    </div>
+
+    <div class="contact-grid">
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <input type="text" placeholder="Ονοματεπώνυμο" required>
+          <input type="tel" placeholder="Τηλέφωνο" required>
+        </div>
+        <input type="email" placeholder="Email" required>
+        <textarea rows="5" placeholder="Περιέγραψε τη βλάβη ή το αίτημά σου..." required></textarea>
+        <button type="submit" class="btn btn-primary btn-full">Αποστολή Αιτήματος</button>
+      </form>
+
+      <div class="contact-info">
+        <div class="info-card">
+          <h4>📍 Διεύθυνση</h4>
+          <p>Λεωφόρος Τεχνολογίας 123, Αθήνα</p>
+        </div>
+        <div class="info-card">
+          <h4>📞 Τηλέφωνο</h4>
+          <p>210 1234567</p>
+        </div>
+        <div class="info-card">
+          <h4>⏰ Ωράριο</h4>
+          <p>Δευ-Παρ: 09:00-21:00 · Σάβ: 09:00-15:00</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <a href="#home" class="logo"><span>Tech</span>Zone</a>
+      <p>Το κατάστημα τεχνολογίας που εμπιστεύεσαι για κινητά και επισκευές.</p>
+    </div>
+    <div>
+      <h4>Σύνδεσμοι</h4>
+      <a href="#products">Κινητά</a>
+      <a href="#services">Επισκευές</a>
+      <a href="#about">Σχετικά</a>
+      <a href="#contact">Επικοινωνία</a>
+    </div>
+    <div>
+      <h4>Υπηρεσίες</h4>
+      <a href="#services">Επισκευή Laptop</a>
+      <a href="#services">Επισκευή Κινητών</a>
+      <a href="#services">Αναβαθμίσεις</a>
+    </div>
+    <div>
+      <h4>Ακολούθησέ μας</h4>
+      <div class="socials">
+        <a href="#">FB</a>
+        <a href="#">IG</a>
+        <a href="#">TT</a>
+      </div>
+    </div>
+  </div>
+  <p class="footer-bottom">© 2026 TechZone. Με επιφύλαξη παντός δικαιώματος.</p>
+</footer>
+
+<button id="scrollTop" class="scroll-top" aria-label="Επιστροφή στην κορυφή">↑</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>
